@@ -1,6 +1,5 @@
-import { Library } from './Library.js';
-
-export class DigitalLibrary extends Library {
+const Library = require('./Library');
+class DigitalLibrary extends Library {
   constructor() {
     super();
   }
@@ -21,3 +20,5 @@ export class DigitalLibrary extends Library {
     }
   }
 }
+
+module.exports = DigitalLibrary;

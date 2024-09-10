@@ -1,4 +1,6 @@
-export class Book {
+const { Library } = require("./Library");
+
+class Book {
   #isbn;
   constructor(title, author, isbn, available = true){
     this.title = title;
@@ -35,4 +37,4 @@ export class Book {
   };
 }
 
-
+module.exports = Book;

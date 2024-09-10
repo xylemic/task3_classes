@@ -1,6 +1,6 @@
-import { Book } from './Book.js';
+const Book = require('./Book');
 
-export class Library {
+class Library {
   constructor() {
     this.books = [];
   }
@@ -27,11 +27,11 @@ export class Library {
   findBookByTitle(title) {
    const book = this.books.find(book => book.title === title);
    if (book) {
-    return book.title;
+    return book;
    } else {
     return 'book not found';
    }
   }
 }
 
-
+module.exports = Library;
