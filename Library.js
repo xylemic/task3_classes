@@ -25,11 +25,13 @@ export class Library {
   }
 
   findBookByTitle(title) {
-    if (this.books.title !== title) {
-      return 'book not found';
-    } else {
-      return this.books.filter(book => book.title === title);
-    }
+   const book = this.books.find(book => book.title === title);
+   if (book) {
+    return book.title;
+   } else {
+    return 'book not found';
+   }
   }
 }
+
 
