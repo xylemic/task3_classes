@@ -35,17 +35,4 @@ export class Book {
   };
 }
 
-// const myBook = new Book("to kill a mockingbird", "harper lee", "9780141951755");
-// // console.log(myBook);
-// // myBook.borrowBook();
-// // console.log(myBook);
-// // myBook.returnBook();
-// // console.log(myBook);
-
-// // myBook.isbn = "9780141951755";
-
-// console.log(myBook.setisbn('1234567438952'));
-// console.log(myBook.getisbn());
-
-
 

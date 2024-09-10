@@ -33,13 +33,3 @@ export class Library {
   }
 }
 
-const myLibrary = new Library();
-
-// const book1 = myLibrary.addBook(new Book("to kill a mockingbird", "harper lee", "9780141951755"));
-
-// const book2 = myLibrary.addBook(new Book('eloquent javascript', 'marijn haverbeke', '9781593279509'));
-
-// console.log(myLibrary.removeBook('9780141951755'));
-// console.log(myLibrary.books);
-
-// console.log(myLibrary.findBookByTitle('to kill a mockingbird'));
